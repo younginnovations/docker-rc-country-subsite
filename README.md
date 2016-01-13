@@ -1,5 +1,6 @@
 ## Resource Contract - Country site
 
+
 ### INSTALL DOCKER
 
 ### For debian based system:
@@ -17,6 +18,17 @@ sudo yum install docker-engine
 sudo service docker start
 
 ```
+
+### INSTALL docker-compose
+```
+curl -L https://github.com/docker/compose/releases/download/1.5.2/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+$ chmod +x /usr/local/bin/docker-compose
+Test the installation using 
+docker-compose --version
+
+``` 
+
+
 
 ### RUNNING THE CONTAINER
 
