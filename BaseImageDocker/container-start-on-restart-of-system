@@ -1,8 +1,0 @@
-description "docker container"
-author "younginnovations"
-start on filesystem and started docker
-stop on runlevel [!2345]
-respawn
-script
-  /usr/bin/docker start  rc-country-sierraleone
-end script

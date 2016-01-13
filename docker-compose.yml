@@ -1,0 +1,17 @@
+front:
+  build: .
+  ports:
+    - "80:80"
+  volumes:
+    - .:/var/www/rc-country
+    - ./docker/nginx/sites-enabled:/etc/nginx/sites-enabled
+  links:
+    - pgsql:pgsql
+
+pgsql:
+  build: ./docker/db
+  ports:
+    - "5432:5432"
+  volumes:
+    - docker/db/data:/srv/postgresql
+    - docker/db/default-users-db:/usr/share/postgresql/default/users
