@@ -3,7 +3,7 @@ front:
   ports:
     - "80:80"
   volumes:
-    - .:/var/www/rc-country
+    - .:/var/www
     - ./docker/nginx/sites-enabled:/etc/nginx/sites-enabled
   links:
     - pgsql:pgsql

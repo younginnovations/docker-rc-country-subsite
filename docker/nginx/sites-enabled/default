@@ -1,6 +1,6 @@
 server {
   server_name 52.5.74.209;
-  root        /var/www/rc-country/rc-country/public;
+  root        /var/www/rc-country/public;
   index       index.php;
 
   client_max_body_size 100M;
