@@ -29,4 +29,12 @@ Edit .env file according to requirements
 ./build.sh
 
 ```
+## configuration
+### color
+while building the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings and links .The secondary color is used for backgrounds and buttons.
+
+### Homepage Image
+
+
+### .env
 
