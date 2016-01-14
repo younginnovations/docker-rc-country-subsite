@@ -1,4 +1,4 @@
-FROM younginnovations/php-apache-postgresql-composer:latest
+FROM younginnovations/php-apache-supervisor-composer:latest  
 MAINTAINER younginnovations server@yipl.com.np
 ADD ./rc-country/ /var/www/html/rc-country/
 WORKDIR /var/www/html/rc-country
