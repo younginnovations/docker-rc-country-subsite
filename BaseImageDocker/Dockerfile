@@ -31,7 +31,7 @@ ENV PHP_VERSION 5.6.11
 RUN apt-get install build-essential
 RUN apt-get install -y wget
 RUN wget "http://in1.php.net/get/php-5.6.11.tar.bz2/from/this/mirror" -O /root/php-5.6.11.tar.bz2
-RUN apt-get install postgresql postgresql-contrib -y
+RUN apt-get install   postgresql postgresql-contrib -y
 WORKDIR /root
 RUN pwd
 RUN bunzip2 php-5.6.11.tar.bz2
@@ -64,7 +64,7 @@ RUN echo "LoadModule php5_module  modules/libphp5.so" >> /etc/apache2/apache2.co
 RUN echo "AddType application/x-http-php .php" >> /etc/apache2/apache2.conf
 RUN curl -sS https://getcomposer.org/installer | php
 RUN mv composer.phar /usr/local/bin/composer
-RUN apt-get install php5-curl
+RUN apt-get install php5-curl php5-pgsql
 WORKDIR /var/www/html/
 ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
 RUN a2enmod rewrite
