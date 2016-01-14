@@ -20,7 +20,7 @@ sudo service docker start
 
 ### RUNNING THE CONTAINER
 
-To run the rc-country container follow the following steps:
+To run the rc-country container follow the following steps :
 ```
 git clone git@gitlab.yipl.com.np:web-apps/docker-rc-country-subsite.git
 cd docker-rc-country-subsite
