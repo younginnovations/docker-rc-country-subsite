@@ -44,10 +44,10 @@ while building the script the script will prompt user for primary and secondary 
 
 ### .env
 * Provide the followind details in the .env file like:
-	*Database Host
-	*Database Name
-	*Database Username
-	*Database Password
-	*Country Code
-	
+	* Database Host
+	* Database Name
+	* Database Username
+	* Database Password
+	* Country Code
+
 
