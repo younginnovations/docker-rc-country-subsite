@@ -36,7 +36,18 @@ while building the script the script will prompt user for primary and secondary 
 ![] (https://s3-ap-southeast-1.amazonaws.com/uploads-ap.hipchat.com/140261/2281647/tjNqXWfJGP7sz2K/country.png)
 
 ### Homepage Image
-
+* Initially Default Image for the country site is displayed.
+* You can change the image by visiting the URI:
+	* `/admin` (Login providing the credentials).
+	* Click Manage Image
+	* Choose new image and upload it.
 
 ### .env
+* Provide the followind details in the .env file like:
+	*Database Host
+	*Database Name
+	*Database Username
+	*Database Password
+	*Country Code
+	
 
