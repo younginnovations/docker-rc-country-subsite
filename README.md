@@ -32,7 +32,7 @@ Edit .env file according to requirements
 ## configuration
 ### color
 while building the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings and links .The secondary color is used for backgrounds and buttons.
-
+![] (https://s3-ap-southeast-1.amazonaws.com/uploads-ap.hipchat.com/140261/2281647/tjNqXWfJGP7sz2K/country.png)
 ### Homepage Image
 
 
