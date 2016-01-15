@@ -3,6 +3,12 @@ if [ ! -e .env ]; then echo ".env file does not exist. Please copy the .env file
 sh check_web_server.sh
 git clone git@gitlab.yipl.com.np:web-apps/rc-country.git rc-country
 mv .env rc-country/
+echo "please enter the primary color in hexadecimal form"
+read f1
+echo "please enter the secondary color in hexadecimal form"
+read f2
+sed -i "s/#2AAAA9/$f1/g" rc-country/public/css/color-country-view.css
+sed -i "s/#39CCCB/$f2/g" rc-country/public/css/color-country-view.css
 docker build -t rc-country:sierraleone .
 hasid=`docker ps -a|grep -i rc-country-sierraleone|awk '{print $1}'`
 if [ $hasid ]; then docker rm -f rc-country-sierraleone; fi                                    
