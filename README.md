@@ -31,7 +31,7 @@ Edit .env file according to requirements
 ```
 ## configuration
 ### color
-while running the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings and links .The secondary color is used for backgrounds and buttons.
+while running the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings and links .The secondary color is used for backgrounds and buttons.The default primary color is #17A9A8 and the default secondary color is #0B9C9B .If the user does not wants to change the default primary and secondary color they could simply press ENTER button.
 
 ![] (https://s3-ap-southeast-1.amazonaws.com/uploads-ap.hipchat.com/140261/2281647/tjNqXWfJGP7sz2K/country.png)
 
