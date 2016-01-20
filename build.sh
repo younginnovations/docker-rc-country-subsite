@@ -15,7 +15,6 @@ if [ "$f1" != "" ]
 then 
 sed -i "s/#0B9C9B/$f2/g" rc-country/public/css/color-country-view.css
 fi
-docker build -t rc-country:sierraleone .
-hasid=`docker ps -a|grep -i rc-country-sierraleone|awk '{print $1}'`
-if [ $hasid ]; then docker rm -f rc-country-sierraleone; fi                                    
-docker run -it --name rc-country-sierraleone -p 80:80 rc-country:sierraleone
+hasid=`docker ps -a | grep -i alpinebasedimage_front_1| awk '{print $1}'`
+if [ $hasid ]; then docker rm -f alpinebasedimage_front_1; fi                                    
+docker-compose up
