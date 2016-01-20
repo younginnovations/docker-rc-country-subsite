@@ -1,5 +1,5 @@
 server {
-  server_name 54.174.7.179;
+  server_name localhost;
   root        /var/www/rc-country/public;
   index       index.php;
 
