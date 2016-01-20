@@ -40,9 +40,9 @@ Edit .env file according to requirements
 ./build.sh
 
 ```
-## configuration
-### color
-while running the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings.The secondary color is for hover.
+## Configuration
+### Color
+While running the script the script will prompt user for primary and secondary color.The primary color is the main color of the site.It is used for headings.The secondary color is for hover.
 
 NOTE: The color does not changes if we run the script more than once .This is due to the problem that docker-compose would not rebuild the container again.Instead it will take from the cache.To solve this problem,before running the script the user have to follow the following instructions.
 ```
