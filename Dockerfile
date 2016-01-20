@@ -1,4 +1,4 @@
-FROM alpine-php-nginx-supervisor:1
+FROM younginnovations/php-fpm-nginx-supervisord
 RUN apk --update add php-pgsql git php-pdo_pgsql php-phar php-dom curl && rm /var/cache/apk/*
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer
 RUN apk update
