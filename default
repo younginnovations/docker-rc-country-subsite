@@ -1,5 +1,5 @@
 server {
-  server_name 52.5.74.209;
+  server_name 54.174.7.179;
   root        /var/www/rc-country/public;
   index       index.php;
 
@@ -24,3 +24,4 @@ server {
     fastcgi_pass  127.0.0.1:9000;
   }
 }
+
